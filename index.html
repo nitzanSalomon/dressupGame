@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="code.js" type="text/javascript"></script>
+    <script src="sortToGrops.js" type="text/javascript"></script>
+    <script src="dragDropTouch.js" type="text/javascript"></script>
+    <script src="completeSentence.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>לבישת מיגון </title>
+</head>
+</html><body>
+    <!-- loader -->
+    <div class="loader">
+        <img src="./assets/images/loder.gif" alt="Loading..." />
+    </div>
+    <div class="openingPage">
+        <div class="headline"><div>ל</div><div>ב</div><div>י</div><div>ש</div><div>ת</div><div> </div><div> </div><div>מ</div><div>י</div><div>ג</div><div>ו</div><div>ן</div></div>
+        <img class="openCharcter" src="./assets/images/meryBig.svg">
+        <img class="startButton centerItem" src="./assets/images/startButton.svg">
+        <img class="aboutButton" src="./assets/images/aboutButton.png">
+    </div>
+    <div class="gamePage hidden">
+        <div class="instractions">הלבישו את החיילת בכל פרטי ההגנה שהיא צריכה לנטרול הפצצה</div>
+        <div class="gameContainer centerX">
+            <div class="itemsContainer">
+                <div class="itemContainer vest">
+                    <img class="item drag vestItem" data-num=1 draggable="false" src="./assets/images/vest.svg"/>
+                    <img class="lock vestLock" src="./assets/images/lock.svg"/>
+                </div>
+                <div class="itemContainer kneePads">
+                    <img class="item drag kneePadsItem" data-num=2 draggable="false" src="./assets/images/kneePads.svg"/>
+                    <img class="lock kneePadsLock" src="./assets/images/lock.svg"/>
+                </div>
+                <div class="itemContainer helmet">
+                    <img class="item drag helmetItem" data-num=3 draggable="false" src="./assets/images/helmet.svg"/>
+                    <img class="lock helmetLock" src="./assets/images/lock.svg"/>
+                </div>
+                <div class="itemContainer leftGlove">
+                    <img class="item drag leftGloveItem" data-num=4 draggable="false" src="./assets/images/leftGlove.svg"/>
+                    <img class="lock leftGloveLock" src="./assets/images/lock.svg"/>
+                </div>
+                <div class="itemContainer rightGlove">
+                    <img class="item drag rightGloveItem" data-num=5 draggable="false" src="./assets/images/rightGlove.svg"/>
+                    <img class="lock rightGloveLock" src="./assets/images/lock.svg"/>
+                </div>
+            </div>
+            <div class="dropContainer">
+                <img class="gameCharcter" src="./assets/images/merySmall.svg">
+                <div class="drop vestDrop" data-num="1"></div>
+                <div class="drop kneePadsDrop" data-num="2"></div>
+                <div class="drop helmetDrop" data-num="3"></div>
+                <div class="drop leftGloveDrop" data-num="4"></div>
+                <div class="drop rightGloveDrop" data-num="5"></div>
+            </div>
+        </div>
+    </div>
+    <div class="questionPage hidden">
+        <div class="instractions">כדי שתוכלו להשתמש בפריט עליכם להשלים את המשפטים הבאים:</div>
+        <div class="completeSentenceContainer centerItem"></div>
+    </div>
+    <div class="endPage hidden">
+        <img class="endCharater" src="./assets/images/merySmallProtectionCut.svg"/>
+        <div class="endContainer centerItem">
+            <div class="lineHeight">כל הכבוד! עכשיו אתם לבושים בכל הציוד שממגן אתכם נגד פצצות. לידע כללי סוג הציוד הזה נקרא ציוד מיגון</div>
+            <div class="endButton">סיום</div>
+        </div>
+    </div>
+    <div class="aboutPage hidden">
+        <div class="odotTitle centerX">אודות</div>
+        <div class="aboutInfo centerItem">
+            <div>
+              <p class="p-odot">
+                <span class="bold">יוזמת פרוייקט:</span>
+                 סמ"ר גל גנסין</p>
+              <p class="p-odot">
+                <span class="bold">מנהלת פרוייקט:</span>
+                 סמ"ל דורין חתוקה</p>
+              <p class="p-odot">
+                <span class="bold">פיתוח:</span>
+                 רב"ט ניצן סלומון</p>
+              <p class="p-odot">
+                <span class="bold">גרפיקאית:</span>
+                 רב"ט לוטם גרוס</p>
+              <p class="p-odot">
+                <span class="bold">רמ"ד טי"ל:</span>
+                 רס"מ שלומי אוגרן</p>
+            </div>
+            <img class="tillLogo" src="./assets/images/Artboard 74.svg">
+    
+            <img class="xIcon" src="./assets/images/closeAboutButton.svg" alt="x"/>
+        </div>
+    </div>
+</body>
+</html>
