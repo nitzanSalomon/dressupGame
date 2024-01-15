@@ -229,60 +229,58 @@ body {
 .dropContainer {
     position: absolute;
     width: 61vw;
-    height: 62vh;
-    top: 6vh;
+    height: 111vw;
+    top: 15vw;
     right: 6vw;
+    display: grid;
+    grid-template-rows: 1.1fr 0.4fr 0.9fr 0.68fr 0.19fr 0.33fr 0.3fr 0.7fr 1.4fr;
+    grid-template-columns: 0.1fr 0.6fr 0.5fr 0.4fr 0.1fr 1.2fr 0.3fr 0.7fr 0.8fr 0.3fr;
 }
 
 .drop {
-    position: absolute;
-    /* background-color: aqua; */
+    z-index: 10;
 }
 
-.drag.droped {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.droped {
+    width: fit-content;
 }
 
 .vestDrop {
-    width: 35vw;
-    height: 22vh;
-    top: 8vh;
-    right: 11vw;
+    grid-area: 2/ 4/ span 2/ span 4;
 }
 
 .kneePadsDrop {
-    width: 30vw;
-    height: 9vh;
-    top: 40vh;
-    right: 14vw;
+    grid-area: 8/ 5/ span 1/ span 3;
 }
 
 .helmetDrop {
-    width: 24vw;
-    height: 17vh;
-    top: -3vh;
-    right: 16vw;
+    grid-area: 1/ 6/ span 2/ span 1;
 }
 
 .leftGloveDrop {
-    width: 28vw;
-    height: 15vh;
-    top: 24.4vh;
-    right: 39vw;
+    grid-area: 4/ 8/ span 3/ span 2;
+}
+
+.leftGloveDrop.dropedIn {
+    grid-area: 5/ 9/ span 2/ span 1;
 }
 
 .rightGloveDrop {
-    width: 26vw;
-    height: 14vh;
-    top: 26.3vh;
-    right: -7vw;
+    grid-area: 4/ 1/ span 3/ span 3;
 }
 
-.vestItem.droped {
+.rightGloveDrop.dropedIn {
+    grid-area: 6/ 2/ span 1/ span 1;
+}
+
+.droped {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* .vestItem.droped {
     width: 28vw;
+    width: fit-content;
 }
 
 .kneePadsItem.droped {
@@ -294,12 +292,12 @@ body {
 }
 
 .leftGloveItem.droped {
-    width: 10vw;
+    grid-area: 4/ 8/ span 1/ span 1;
 }
 
 .rightGloveItem.droped {
     width: 7vw;
-}
+} */
 
 /* about ----------------------------------------------------------------------------*/
 .aboutInfo {

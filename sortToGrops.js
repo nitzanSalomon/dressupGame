@@ -36,6 +36,7 @@ setDrop = () => {
                 drag.parentNode.removeChild(drag);
                 drop.appendChild(drag);
                 drag.classList.add("droped");
+                drop.classList.add("dropedIn");
                 drag.setAttribute("draggable", "false");
                 nDropedItems++
                 checkForWin();
