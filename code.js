@@ -189,6 +189,7 @@ const handelAboutPage = () => {
 --------------------------------------------------------------
 Description: */
 const startGame = () => {
+    document.querySelector(".dropContainer").style.height = "111vw";
     document.querySelector(".openingPage").classList.add("hidden");
     document.querySelector(".gamePage").classList.remove("hidden");
     document.querySelectorAll(".itemContainer ").forEach(element => {
