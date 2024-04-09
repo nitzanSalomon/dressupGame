@@ -168,6 +168,7 @@ const DATA = {
 --------------------------------------------------------------
 Description: */
 window.addEventListener("load", () => { 
+    document.querySelector(".dropContainer").style.height = "111vw";
     document.querySelector(`.loader`).classList.add(`fade`);
     document.querySelector(".startButton").addEventListener("click", startGame);
     document.querySelector(`.aboutButton`).addEventListener("click", handelAboutPage);
@@ -189,7 +190,6 @@ const handelAboutPage = () => {
 --------------------------------------------------------------
 Description: */
 const startGame = () => {
-    document.querySelector(".dropContainer").style.height = "111vw";
     document.querySelector(".openingPage").classList.add("hidden");
     document.querySelector(".gamePage").classList.remove("hidden");
     document.querySelectorAll(".itemContainer ").forEach(element => {
