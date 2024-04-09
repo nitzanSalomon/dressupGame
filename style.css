@@ -5,7 +5,6 @@ body, html {
     direction: rtl; 
     overflow-y: hidden;
     overflow-x: hidden;
-    position: fixed;
 }
 
 
@@ -216,7 +215,7 @@ body {
 }
 
 .dropDownItem {
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(128, 128, 128, 0.9);
     padding: 0.4em;
     border-radius: 0.7em;
 }

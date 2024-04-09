@@ -3,163 +3,163 @@ const DATA = {
     "completeSentence":{
         vest: [
             {
-                sentence: [`חלק ראשון של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`חודש אפריל הוא החודש`, `בשנה`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה ארוכה`,
-                    `קצר`,
-                    `אופציה בינוני`,
-                    `אופציה 4`,
+                    `הרביעי`,
+                    `הקצר`,
+                    `השלישי`,
+                    `הארוך`,
                 ], // all the options that will apear in the dropDown.
                 correctAns: "ans0" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`יש`, `ימים בשבוע`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `5`,
+                    `6`,
+                    `7`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans2" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`מבין כל החיות החיה הכי גדולה היא`, ``], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `הקוף`,
+                    `הפיל`,
+                    `הדג`,
+                    `האריה`,
+                    `העכבר`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans1" // location of answer in array
             },    
         ],
         kneePads: [
             {
-                sentence: [`חלק ראשון של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`חודש אפריל הוא החודש`, `בשנה`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה ארוכה`,
-                    `קצר`,
-                    `אופציה בינוני`,
-                    `אופציה 4`,
+                    `הרביעי`,
+                    `הקצר`,
+                    `השלישי`,
+                    `הארוך`,
                 ], // all the options that will apear in the dropDown.
                 correctAns: "ans0" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`יש`, `ימים בשבוע`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `5`,
+                    `6`,
+                    `7`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans2" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`מבין כל החיות החיה הכי גדולה היא`, ``], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `הקוף`,
+                    `הפיל`,
+                    `הדג`,
+                    `האריה`,
+                    `העכבר`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
-            },    
+                correctAns: "ans1" // location of answer in array
+            },     
         ],
         helmet: [
             {
-                sentence: [`חלק ראשון של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`חודש אפריל הוא החודש`, `בשנה`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה ארוכה`,
-                    `קצר`,
-                    `אופציה בינוני`,
-                    `אופציה 4`,
+                    `הרביעי`,
+                    `הקצר`,
+                    `השלישי`,
+                    `הארוך`,
                 ], // all the options that will apear in the dropDown.
                 correctAns: "ans0" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`יש`, `ימים בשבוע`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `5`,
+                    `6`,
+                    `7`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans2" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`מבין כל החיות החיה הכי גדולה היא`, ``], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `הקוף`,
+                    `הפיל`,
+                    `הדג`,
+                    `האריה`,
+                    `העכבר`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
-            },    
+                correctAns: "ans1" // location of answer in array
+            },   
         ],
         leftGlove: [
             {
-                sentence: [`חלק ראשון של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`חודש אפריל הוא החודש`, `בשנה`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה ארוכה`,
-                    `קצר`,
-                    `אופציה בינוני`,
-                    `אופציה 4`,
+                    `הרביעי`,
+                    `הקצר`,
+                    `השלישי`,
+                    `הארוך`,
                 ], // all the options that will apear in the dropDown.
                 correctAns: "ans0" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`יש`, `ימים בשבוע`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `5`,
+                    `6`,
+                    `7`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans2" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`מבין כל החיות החיה הכי גדולה היא`, ``], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `הקוף`,
+                    `הפיל`,
+                    `הדג`,
+                    `האריה`,
+                    `העכבר`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
-            },    
+                correctAns: "ans1" // location of answer in array
+            },   
         ],
         rightGlove: [
             {
-                sentence: [`חלק ראשון של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`חודש אפריל הוא החודש`, `בשנה`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה ארוכה`,
-                    `קצר`,
-                    `אופציה בינוני`,
-                    `אופציה 4`,
+                    `הרביעי`,
+                    `הקצר`,
+                    `השלישי`,
+                    `הארוך`,
                 ], // all the options that will apear in the dropDown.
                 correctAns: "ans0" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`יש`, `ימים בשבוע`], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `5`,
+                    `6`,
+                    `7`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
+                correctAns: "ans2" // location of answer in array
             },    
             {
-                sentence: [`חלק אחד של המשפט`, `חלק שני של המשפט`], // put each part of the sentence as an string in the array
+                sentence: [`מבין כל החיות החיה הכי גדולה היא`, ``], // put each part of the sentence as an string in the array
                 dropDownAns: [
-                    `אופציה 1`,
-                    `אופציה 2`,
-                    `אופציה 3`,
-                    `אופציה 4`,
+                    `הקוף`,
+                    `הפיל`,
+                    `הדג`,
+                    `האריה`,
+                    `העכבר`,
                 ], // all the options that will apear in the dropDown.
-                correctAns: "ans0" // location of answer in array
-            },    
+                correctAns: "ans1" // location of answer in array
+            },     
         ],
     },
 };
