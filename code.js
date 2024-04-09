@@ -168,7 +168,6 @@ const DATA = {
 --------------------------------------------------------------
 Description: */
 window.addEventListener("load", () => { 
-    document.querySelector(".dropContainer").style.height = "111vw";
     document.querySelector(`.loader`).classList.add(`fade`);
     document.querySelector(".startButton").addEventListener("click", startGame);
     document.querySelector(`.aboutButton`).addEventListener("click", handelAboutPage);
